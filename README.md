@@ -1,3 +1,5 @@
+
+```markdown
 <div align="center">
 
 # 🚀 AUTOPILOT
@@ -34,4 +36,24 @@
    ```env
    TOKEN=تضع_هنا_التوكن_الخاص_بك
    OWNER_ID=تضع_هنا_ايدي_حسابك
+
+```
+ 2. **تجهيز البيئة:**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
    
+   ```
+ 3. **التشغيل:**
+   ```bash
+   python3 -m autopilot
+   
+   ```
+### ☁️ النشر على Railway
+هذا المشروع مهيأ بالكامل للنشر التلقائي على **Railway**. تأكد فقط من إضافة TOKEN و OWNER_ID في قسم **Variables** داخل لوحة تحكم مشروعك.
+### 🔗 روابط الدعم
+Instagram | TikTok | Facebook | WhatsApp | Support Chat
+*Developed with excellence by @Y9_S4*
+</div>
+```
