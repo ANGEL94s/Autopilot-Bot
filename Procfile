@@ -1,1 +1,1 @@
-web: python3 -m autopilot
+web: python -m autopilot
