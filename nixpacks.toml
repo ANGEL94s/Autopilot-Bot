@@ -1,8 +1,8 @@
-[phases.setup]
-commands = ["python3 -m pip install -r requirements.txt"]
+[build]
+inputs = ["python312"]
 
-[phases.build]
-commands = []
+[phases.setup]
+commands = ["pip install --no-cache-dir -r requirements.txt"]
 
 [phases.start]
-commands = ["python3 -m autopilot"]
+commands = ["python -m autopilot"]
