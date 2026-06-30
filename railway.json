@@ -2,12 +2,8 @@
   "services": [
     {
       "name": "autopilot",
-      "build": {
-        "buildCommand": "python3 -m pip install -r requirements.txt"
-      },
-      "start": {
-        "startCommand": "python3 -m autopilot"
-      }
+      "buildCommand": "pip install --no-cache-dir -r requirements.txt",
+      "startCommand": "python -m autopilot"
     }
   ]
 }
